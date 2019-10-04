@@ -1,0 +1,11 @@
+vpc_cidr="10.11.0.0/16"
+vpc_name="prod-vpc"
+env="production"
+subnets_cidr=["10.11.1.0/24","10.11.2.0/24","10.11.3.0/24"]
+azs=["us-east-1a","us-east-1b","us-east-1c"]
+igw_name="prod-igw"
+rt1_name="prod-route"
+sg_name="prod-sg"
+ami="ami-0cfee17793b08a293"
+instance_type="t2.micro"
+key_name="19-7key"

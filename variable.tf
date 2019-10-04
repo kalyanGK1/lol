@@ -1,0 +1,11 @@
+variable "vpc_cidr"{}
+variable "vpc_name"{}
+variable "env"{}
+variable "subnets_cidr"{type="list"}
+variable "azs"{type="list"}   
+variable "igw_name"{}
+variable "rt1_name"{}
+variable "sg_name"{}
+variable "ami"{}
+variable "instance_type"{}
+variable "key_name"{}
